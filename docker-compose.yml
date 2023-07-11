@@ -1,14 +1,14 @@
 version: '3'
 services:
-  app:
+  application:
     build: .
     ports:
       - '4000:4000'
     depends_on:
-      - db
+      -   database
     environment:
-      - DATABASE_URL=postgres://dice:dicepassword@db:5432/dice
-  db:
+      - DATABASE_URL=postgres://dice:dicepassword@database:5432/dice
+  database:
     image: postgres:12
     environment:
       - POSTGRES_USER=dice
