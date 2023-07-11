@@ -3,9 +3,9 @@ import User from "./models/user";
 import Bet from "./models/bet";
 import * as dotenv from 'dotenv';
 import {QueryTypes} from "sequelize";
-import {sequelize} from "./databse";
+import {sequelize, setupDatabase} from "./databse";
 
-const typeDefs = gql`
+export const typeDefs = gql`
   type User {
     id: Int!
     name: String!
@@ -34,7 +34,7 @@ type BestBet = {
     userId: number;
     maxBet: number;
 };
-const resolvers = {
+export const resolvers = {
     Query: {
         getUser: (_, {id}) => User.findByPk(id),
         getUserList: () => User.findAll(),
@@ -92,6 +92,7 @@ const resolvers = {
 
 dotenv.config();
 const server = new ApolloServer({typeDefs, resolvers});
-server.listen().then(({url}) => {
+server.listen().then(async ({url}) => {
+    await setupDatabase();
     console.log(`Server ready at ${url}`);
 });

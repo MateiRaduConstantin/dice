@@ -1,0 +1,2295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Queries creates a bet 1`] = `
+{
+  "data": {
+    "createBet": {
+      "betAmount": 500,
+      "chance": 0.5,
+      "id": 64,
+      "payout": 100000,
+      "userId": 1,
+      "win": false,
+    },
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": {
+    "headers": Headers {
+      Symbol(map): {},
+    },
+  },
+}
+`;
+
+exports[`Queries creates a new user 1`] = `
+{
+  "data": undefined,
+  "errors": [
+    [ValidationError: Cannot query field "addUser" on type "Mutation".],
+  ],
+  "extensions": undefined,
+  "http": {
+    "headers": Headers {
+      Symbol(map): {},
+    },
+  },
+}
+`;
+
+exports[`Queries fetches all users 1`] = `
+{
+  "data": undefined,
+  "errors": [
+    [ValidationError: Cannot query field "getAllUsers" on type "Query". Did you mean "getUser"?],
+  ],
+  "extensions": undefined,
+  "http": {
+    "headers": Headers {
+      Symbol(map): {},
+    },
+  },
+}
+`;
+
+exports[`Queries fetches best bets per user 1`] = `
+{
+  "data": {
+    "getBestBetPerUser": [
+      {
+        "betAmount": 300,
+        "chance": 20,
+        "id": 12,
+        "payout": 1500,
+        "userId": 2,
+        "win": true,
+      },
+      {
+        "betAmount": 100,
+        "chance": 20,
+        "id": 49,
+        "payout": 500,
+        "userId": 5,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 70,
+        "id": 62,
+        "payout": 42.85714285714286,
+        "userId": 1,
+        "win": true,
+      },
+    ],
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": {
+    "headers": Headers {
+      Symbol(map): {},
+    },
+  },
+}
+`;
+
+exports[`Queries fetches bet list 1`] = `
+{
+  "data": {
+    "getBetList": [
+      {
+        "betAmount": 100,
+        "chance": 20,
+        "id": 1,
+        "payout": 500,
+        "userId": 2,
+        "win": false,
+      },
+      {
+        "betAmount": 100,
+        "chance": 20,
+        "id": 2,
+        "payout": 500,
+        "userId": 2,
+        "win": true,
+      },
+      {
+        "betAmount": 100,
+        "chance": 20,
+        "id": 3,
+        "payout": 500,
+        "userId": 2,
+        "win": false,
+      },
+      {
+        "betAmount": 100,
+        "chance": 20,
+        "id": 4,
+        "payout": 500,
+        "userId": 2,
+        "win": true,
+      },
+      {
+        "betAmount": 100,
+        "chance": 20,
+        "id": 5,
+        "payout": 500,
+        "userId": 2,
+        "win": false,
+      },
+      {
+        "betAmount": 100,
+        "chance": 20,
+        "id": 6,
+        "payout": 500,
+        "userId": 2,
+        "win": false,
+      },
+      {
+        "betAmount": 100,
+        "chance": 20,
+        "id": 7,
+        "payout": 500,
+        "userId": 2,
+        "win": false,
+      },
+      {
+        "betAmount": 100,
+        "chance": 20,
+        "id": 8,
+        "payout": 500,
+        "userId": 2,
+        "win": false,
+      },
+      {
+        "betAmount": 100,
+        "chance": 20,
+        "id": 9,
+        "payout": 500,
+        "userId": 2,
+        "win": true,
+      },
+      {
+        "betAmount": 300,
+        "chance": 20,
+        "id": 10,
+        "payout": 1500,
+        "userId": 2,
+        "win": false,
+      },
+      {
+        "betAmount": 300,
+        "chance": 20,
+        "id": 11,
+        "payout": 1500,
+        "userId": 2,
+        "win": false,
+      },
+      {
+        "betAmount": 300,
+        "chance": 20,
+        "id": 12,
+        "payout": 1500,
+        "userId": 2,
+        "win": true,
+      },
+      {
+        "betAmount": 300,
+        "chance": 20,
+        "id": 13,
+        "payout": 1500,
+        "userId": 2,
+        "win": false,
+      },
+      {
+        "betAmount": 300,
+        "chance": 20,
+        "id": 14,
+        "payout": 1500,
+        "userId": 2,
+        "win": true,
+      },
+      {
+        "betAmount": 300,
+        "chance": 20,
+        "id": 15,
+        "payout": 1500,
+        "userId": 2,
+        "win": false,
+      },
+      {
+        "betAmount": 300,
+        "chance": 20,
+        "id": 16,
+        "payout": 1500,
+        "userId": 2,
+        "win": false,
+      },
+      {
+        "betAmount": 300,
+        "chance": 20,
+        "id": 17,
+        "payout": 1500,
+        "userId": 2,
+        "win": false,
+      },
+      {
+        "betAmount": 30,
+        "chance": 50,
+        "id": 18,
+        "payout": 60,
+        "userId": 2,
+        "win": false,
+      },
+      {
+        "betAmount": 30,
+        "chance": 50,
+        "id": 19,
+        "payout": 60,
+        "userId": 2,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 50,
+        "id": 20,
+        "payout": 60,
+        "userId": 2,
+        "win": false,
+      },
+      {
+        "betAmount": 30,
+        "chance": 50,
+        "id": 21,
+        "payout": 60,
+        "userId": 2,
+        "win": false,
+      },
+      {
+        "betAmount": 30,
+        "chance": 50,
+        "id": 22,
+        "payout": 60,
+        "userId": 2,
+        "win": false,
+      },
+      {
+        "betAmount": 30,
+        "chance": 50,
+        "id": 23,
+        "payout": 60,
+        "userId": 2,
+        "win": false,
+      },
+      {
+        "betAmount": 30,
+        "chance": 50,
+        "id": 24,
+        "payout": 60,
+        "userId": 2,
+        "win": false,
+      },
+      {
+        "betAmount": 30,
+        "chance": 70,
+        "id": 25,
+        "payout": 42.85714285714286,
+        "userId": 2,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 70,
+        "id": 26,
+        "payout": 42.85714285714286,
+        "userId": 2,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 70,
+        "id": 27,
+        "payout": 42.85714285714286,
+        "userId": 2,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 70,
+        "id": 28,
+        "payout": 42.85714285714286,
+        "userId": 2,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 70,
+        "id": 29,
+        "payout": 42.85714285714286,
+        "userId": 2,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 70,
+        "id": 30,
+        "payout": 42.85714285714286,
+        "userId": 2,
+        "win": false,
+      },
+      {
+        "betAmount": 30,
+        "chance": 70,
+        "id": 31,
+        "payout": 42.85714285714286,
+        "userId": 5,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 70,
+        "id": 32,
+        "payout": 42.85714285714286,
+        "userId": 5,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 70,
+        "id": 33,
+        "payout": 42.85714285714286,
+        "userId": 5,
+        "win": false,
+      },
+      {
+        "betAmount": 30,
+        "chance": 70,
+        "id": 34,
+        "payout": 42.85714285714286,
+        "userId": 5,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 70,
+        "id": 35,
+        "payout": 42.85714285714286,
+        "userId": 5,
+        "win": false,
+      },
+      {
+        "betAmount": 30,
+        "chance": 70,
+        "id": 36,
+        "payout": 42.85714285714286,
+        "userId": 5,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 70,
+        "id": 37,
+        "payout": 42.85714285714286,
+        "userId": 5,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 70,
+        "id": 38,
+        "payout": 42.85714285714286,
+        "userId": 5,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 70,
+        "id": 39,
+        "payout": 42.85714285714286,
+        "userId": 5,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 70,
+        "id": 40,
+        "payout": 42.85714285714286,
+        "userId": 5,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 50,
+        "id": 41,
+        "payout": 60,
+        "userId": 5,
+        "win": false,
+      },
+      {
+        "betAmount": 30,
+        "chance": 50,
+        "id": 42,
+        "payout": 60,
+        "userId": 5,
+        "win": false,
+      },
+      {
+        "betAmount": 30,
+        "chance": 50,
+        "id": 43,
+        "payout": 60,
+        "userId": 5,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 50,
+        "id": 44,
+        "payout": 60,
+        "userId": 5,
+        "win": false,
+      },
+      {
+        "betAmount": 30,
+        "chance": 50,
+        "id": 45,
+        "payout": 60,
+        "userId": 5,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 50,
+        "id": 46,
+        "payout": 60,
+        "userId": 5,
+        "win": false,
+      },
+      {
+        "betAmount": 30,
+        "chance": 50,
+        "id": 47,
+        "payout": 60,
+        "userId": 5,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 50,
+        "id": 48,
+        "payout": 60,
+        "userId": 5,
+        "win": false,
+      },
+      {
+        "betAmount": 100,
+        "chance": 20,
+        "id": 49,
+        "payout": 500,
+        "userId": 5,
+        "win": true,
+      },
+      {
+        "betAmount": 100,
+        "chance": 20,
+        "id": 50,
+        "payout": 500,
+        "userId": 5,
+        "win": false,
+      },
+      {
+        "betAmount": 100,
+        "chance": 20,
+        "id": 51,
+        "payout": 500,
+        "userId": 5,
+        "win": true,
+      },
+      {
+        "betAmount": 100,
+        "chance": 20,
+        "id": 52,
+        "payout": 500,
+        "userId": 5,
+        "win": false,
+      },
+      {
+        "betAmount": 100,
+        "chance": 20,
+        "id": 53,
+        "payout": 500,
+        "userId": 5,
+        "win": false,
+      },
+      {
+        "betAmount": 100,
+        "chance": 20,
+        "id": 54,
+        "payout": 500,
+        "userId": 5,
+        "win": false,
+      },
+      {
+        "betAmount": 300,
+        "chance": 20,
+        "id": 55,
+        "payout": 1500,
+        "userId": 5,
+        "win": false,
+      },
+      {
+        "betAmount": 300,
+        "chance": 20,
+        "id": 56,
+        "payout": 1500,
+        "userId": 5,
+        "win": false,
+      },
+      {
+        "betAmount": 300,
+        "chance": 20,
+        "id": 57,
+        "payout": 1500,
+        "userId": 5,
+        "win": false,
+      },
+      {
+        "betAmount": 300,
+        "chance": 20,
+        "id": 58,
+        "payout": 1500,
+        "userId": 5,
+        "win": false,
+      },
+      {
+        "betAmount": 300,
+        "chance": 20,
+        "id": 59,
+        "payout": 1500,
+        "userId": 5,
+        "win": false,
+      },
+      {
+        "betAmount": 30,
+        "chance": 70,
+        "id": 60,
+        "payout": 42.85714285714286,
+        "userId": 5,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 50,
+        "id": 61,
+        "payout": 60,
+        "userId": 5,
+        "win": false,
+      },
+      {
+        "betAmount": 30,
+        "chance": 70,
+        "id": 62,
+        "payout": 42.85714285714286,
+        "userId": 1,
+        "win": true,
+      },
+      {
+        "betAmount": 30,
+        "chance": 50,
+        "id": 63,
+        "payout": 60,
+        "userId": 1,
+        "win": false,
+      },
+    ],
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": {
+    "headers": Headers {
+      Symbol(map): {},
+    },
+  },
+}
+`;
+
+exports[`Queries fetches single bet 1`] = `
+{
+  "data": {
+    "getBet": {
+      "betAmount": 100,
+      "chance": 20,
+      "id": 1,
+      "payout": 500,
+      "userId": 2,
+      "win": false,
+    },
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": {
+    "headers": Headers {
+      Symbol(map): {},
+    },
+  },
+}
+`;
+
+exports[`Queries fetches single user 1`] = `
+{
+  "data": {
+    "getUser": {
+      "balance": 1012.8571428571429,
+      "id": 1,
+      "name": "John Doe",
+    },
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": {
+    "headers": Headers {
+      Symbol(map): {},
+    },
+  },
+}
+`;
+
+exports[`Queries fetches user list 1`] = `
+{
+  "data": {
+    "getUserList": [
+      {
+        "balance": 3000,
+        "id": 3,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 4,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 1000,
+        "id": 6,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 7,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 8,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 9,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 10,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 11,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 12,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 13,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 14,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 15,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 16,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 17,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 18,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 19,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 20,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 21,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 22,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 23,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 24,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 25,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 26,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 27,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 28,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 29,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 30,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 106,
+        "name": "John Doe",
+      },
+      {
+        "balance": 9425.714285714288,
+        "id": 5,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 2000,
+        "id": 107,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 1012.8571428571429,
+        "id": 1,
+        "name": "John Doe",
+      },
+      {
+        "balance": 1000,
+        "id": 31,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 32,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 33,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 34,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 35,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 36,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 37,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 38,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 39,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 40,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 4164.285714285715,
+        "id": 2,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 1000,
+        "id": 41,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 42,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 43,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 44,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 45,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 46,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 47,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 48,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 49,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 50,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 51,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 52,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 53,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 54,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 55,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 56,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 57,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 58,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 59,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 60,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 61,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 62,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 63,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 64,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 65,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 66,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 67,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 68,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 3000,
+        "id": 108,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 69,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 70,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 71,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 72,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 73,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 74,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 75,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 76,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 77,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 78,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 79,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 80,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 81,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 82,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 83,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 84,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 85,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 86,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 87,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 88,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 89,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 90,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 91,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 92,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 93,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 94,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 95,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 96,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 97,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 98,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 99,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 100,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 101,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 102,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 103,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 104,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 105,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 4000,
+        "id": 109,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 110,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 111,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 112,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 113,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 114,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 115,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 116,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 117,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 118,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 119,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 120,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 121,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 122,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 123,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 124,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 125,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 126,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 127,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 128,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 129,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 130,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 131,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 132,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 133,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 134,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 135,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 136,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 137,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 138,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 139,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 140,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 141,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 142,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 143,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 144,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 145,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 146,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 147,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 148,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 149,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 150,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 151,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 152,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 153,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 154,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 155,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 156,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 157,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 158,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 159,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 160,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 161,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 162,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 163,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 164,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 165,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 166,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 167,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 168,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 169,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 170,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 171,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 172,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 173,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 174,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 175,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 176,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 177,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 178,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 179,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 180,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 181,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 182,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 183,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 184,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 185,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 186,
+        "name": "John Doe",
+      },
+      {
+        "balance": 1000,
+        "id": 187,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 188,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 189,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 190,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 3000,
+        "id": 191,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 192,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 4000,
+        "id": 193,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 194,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 10000,
+        "id": 195,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 196,
+        "name": "John Doe",
+      },
+      {
+        "balance": 1000,
+        "id": 197,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 198,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 199,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 2000,
+        "id": 200,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 4000,
+        "id": 201,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 202,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 3000,
+        "id": 203,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 204,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 205,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 206,
+        "name": "John Doe",
+      },
+      {
+        "balance": 1000,
+        "id": 207,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 208,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 209,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 2000,
+        "id": 210,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 4000,
+        "id": 211,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 3000,
+        "id": 212,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 10000,
+        "id": 213,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 4000,
+        "id": 214,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 215,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 216,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 217,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 218,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 219,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 220,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 221,
+        "name": "John Doe",
+      },
+      {
+        "balance": 1000,
+        "id": 222,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 223,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 224,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 2000,
+        "id": 225,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 4000,
+        "id": 226,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 3000,
+        "id": 227,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 10000,
+        "id": 228,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 4000,
+        "id": 229,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 230,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 231,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 232,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 233,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 234,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 235,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 236,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 237,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 238,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 239,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 240,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 241,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 242,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 243,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 244,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 245,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 246,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 247,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 248,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 1000,
+        "id": 249,
+        "name": "John Doe",
+      },
+      {
+        "balance": 4000,
+        "id": 250,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 251,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 2000,
+        "id": 252,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 253,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 254,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 255,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 256,
+        "name": "John Doe",
+      },
+      {
+        "balance": 1000,
+        "id": 257,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 258,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 259,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 260,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 3000,
+        "id": 261,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 262,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 263,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 4000,
+        "id": 264,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 265,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 266,
+        "name": "John Doe",
+      },
+      {
+        "balance": 1000,
+        "id": 267,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 268,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 269,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 270,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 3000,
+        "id": 271,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 272,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 4000,
+        "id": 273,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 274,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 10000,
+        "id": 275,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 276,
+        "name": "John Doe",
+      },
+      {
+        "balance": 1000,
+        "id": 277,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 278,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 279,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 280,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 3000,
+        "id": 281,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 282,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 4000,
+        "id": 283,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 284,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 10000,
+        "id": 285,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 286,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 287,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 1000,
+        "id": 288,
+        "name": "John Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 289,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 290,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 2000,
+        "id": 291,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 10000,
+        "id": 292,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 3000,
+        "id": 293,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 294,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 295,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 296,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 297,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 298,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 299,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 1000,
+        "id": 300,
+        "name": "John Doe",
+      },
+      {
+        "balance": 10000,
+        "id": 301,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 2000,
+        "id": 302,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 303,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 304,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 305,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 306,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 307,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 308,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 309,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 310,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 311,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 312,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 313,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 314,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 315,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 316,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 317,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 318,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 319,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 320,
+        "name": "Radu Matei",
+      },
+      {
+        "balance": 1000,
+        "id": 321,
+        "name": "John Doe",
+      },
+      {
+        "balance": 2000,
+        "id": 322,
+        "name": "Jane Doe",
+      },
+      {
+        "balance": 3000,
+        "id": 323,
+        "name": "Ancient User",
+      },
+      {
+        "balance": 4000,
+        "id": 324,
+        "name": "Dice Lover",
+      },
+      {
+        "balance": 10000,
+        "id": 325,
+        "name": "Radu Matei",
+      },
+    ],
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": {
+    "headers": Headers {
+      Symbol(map): {},
+    },
+  },
+}
+`;

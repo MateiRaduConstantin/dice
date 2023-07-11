@@ -5,7 +5,8 @@ dotenv.config()
 
 export const sequelize = new Sequelize(process.env.DATABASE_URL, {dialect: 'postgres', host: 'localhost',});
 
-sequelize.sync().then(async () => {
+export async function setupDatabase() {
+    await sequelize.sync();
 
     const testUsers = [
         { name: 'John Doe', balance: 1000 },
@@ -19,6 +20,4 @@ sequelize.sync().then(async () => {
         const user = await User.create(userData);
         console.log(`Created user ${user.get('name')}`);
     }
-}).catch(error => {
-    console.log('Unable to create tables', error);
-});
+}
